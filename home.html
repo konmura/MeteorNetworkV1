@@ -45,7 +45,7 @@
 <br>
 <br>
 <div class="title">
-    <h1 id="title1">Kewl Cat UB</h1>
+    <h1 id="title1">Meteor</h1>
 </div>
 
 <form class="searchbox" id="searchbox">
@@ -90,9 +90,9 @@
     if (get_cookie("autoblank")=="on"){
         if (window.top !== window) {
             var title2=get_cookie("title2");
-            var favicon=get_cookie("favicon");
+            var favicon=get_cookie("imgs/Screenshot 2024-04-23 2.53.35 PM.png");
 
-            if (favicon==null || favicon==undefined || favicon==""){
+            if (favicon==null || favicon==undefined || favicon=="imgs/Screenshot 2024-04-23 2.53.35 PM.png"){
                 favicon="favicon.ico";
                 document.cookie="favicon="+favicon+"; expires=Thu, 18 Dec 9013 12:00:00 UTC; path=/";
                 (function() {
@@ -113,7 +113,7 @@
                })();
             }
             if (title2==null || title2==undefined || title2==""){
-                title2="Cats Are Cool";
+                title2="Unblock";
                 document.cookie="title2="+title2+"; expires=Thu, 18 Dec 9013 12:00:00 UTC; path=/";
                 parent.document.title=title2;
             }
@@ -127,7 +127,7 @@
     }
     
     var title2=get_cookie("title2");
-    var favicon=get_cookie("favicon");
+    var favicon=get_cookie("imgs/Screenshot 2024-04-23 2.53.35 PM.png");
     
     var fontsize1=2560/screen.width*18.5;
     var fontsize2=2560/screen.width*7.5;
@@ -135,8 +135,8 @@
     title1.style.fontSize = fontsize1+"px";
     search.style.fontSize = fontsize2+"px";
     
-    if (favicon==null || favicon==undefined || favicon==""){
-        favicon="/img/logo.png";
+    if (favicon==null || favicon==undefined || favicon=="imgs/Screenshot 2024-04-23 2.53.35 PM.png"){
+        favicon="imgs/Screenshot 2024-04-23 2.53.35 PM.png";
         document.cookie="favicon="+favicon+"; expires=Thu, 18 Dec 9013 12:00:00 UTC; path=/";
         (function() {
            var link=document.querySelector("link[rel*='icon']") || document.createElement('link');
@@ -156,7 +156,7 @@
        })();
     }
     if (title2==null || title2==undefined || title2==""){
-        title2="C-Unblock";
+        title2="Unblock";
         document.cookie="title2="+title2+"; expires=Thu, 18 Dec 9013 12:00:00 UTC; path=/";
         document.title=title2;
     }
@@ -242,5 +242,5 @@ function isUrl(val = '') {
 </script>
 </body>
 <div style="align-items: center; background-color: #4d4d4d; width:100%; height: 50px; bottom: 0px; position: fixed; text-decoration: none; color: white; border-radius: 30px; padding: 10px;">
-<img src="/img/discor.png" height="30px" width="30px" onclick="window.open('https://discord.gg/A2WWbyvC6f', '_blank')" alt="discord">
+<img src="" height="30px" width="30px" onclick="window.open('https://discord.gg/A2WWbyvC6f', '_blank')" alt="discord">
 </div>
